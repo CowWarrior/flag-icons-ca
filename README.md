@@ -10,19 +10,14 @@ A collection of Canadian flag icons for use in web and mobile applications. It i
 - [Credits](#credits)
 
 ## Installation
-You can download the project locally and include it in your project. At this time there is no CDN available.
+You can download the project locally and include it in your project or use a CDN.
 
 ## Usage
-This library can be used standalone:
-```
-<link rel="stylesheet" href="./css/flag-icons-ca.min.css" />
-```
-
-It can also be used in cunjunction with the existing [Flag Icons Library](https://github.com/lipis/flag-icons). Always include the custom library first so the official library supercedes any common classes :
+The library must be used in cunjunction with the existing [Flag Icons Library](https://github.com/lipis/flag-icons) v5.0.0 or later. Always include the extension library first so the official library supercedes any common classes :
 ```
 <link
   rel="stylesheet"
-  href="./css/flag-icons-ca.min.css"
+  href="https://cdn.jsdelivr.net/gh/cowwarrior/flag-icons-ca@v1.0.0/css/flag-icons-ca.min.css"
 />
 <link
   rel="stylesheet"
